@@ -20,7 +20,8 @@
     "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
     "react/no-unescaped-entities": "off",
-    "prefer-const": "off"
+    "prefer-const": "off",
+    "@typescript-eslint/no-non-null-assertion": "off"
   },
   "settings": {
     "import/resolver": {
