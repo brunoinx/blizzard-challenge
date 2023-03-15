@@ -19,7 +19,12 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 - [Vite JS](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
+### Status do projeto
+>Em desenvolvimento :warning:
+
 ## 📝 Requisitos do desafio
+
+A cada feature implementada, irei marcar o todo list abaixo até finalizar todos os requisitos exigidos.
 
 ### Nível Fácil
 
@@ -32,9 +37,8 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 - [ ]  Aplicar responsividade para as seguintes resoluções: 1920px, 1440px, 768px e 375px.
 
 ### Nível Médio
-###
 
-- [ ]  Todos os requisitos do nivel fácil.
+- [ ]  Todos os requisitos do nível fácil.
 
 - [ ]  Criar as seções: **Menu**, **Banner hero**, **Jogos Exclusivo**, **Footer**.
 
@@ -46,10 +50,14 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 
 ### Nível Difícil
 
-- [ ]  Todos os requisitos do nivel fácil e médio.
+- [ ]  Todos os requisitos do nível fácil e médio.
 
 - [ ]  Ao clicar no botão **Logar** do menu de navegação, deverá ser exibido o modal de login.
 
 - [ ]  Criar componente de *dropdown* para as opções **Jogos** e **Esportes** do menu de navegação.
 
 - [ ]  Deverá ser executado um *gif* do jogo quando ocorrer o evento de *hover* na capa do trailer
+
+### Autor
+
+* **Bruno Henrique** - *Desenvolvedor Frontend* - [Bruno Henrique](https://www.github.com/brunoinx)
