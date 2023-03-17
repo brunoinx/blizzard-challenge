@@ -16,6 +16,7 @@ module.exports = {
         diablo: 'url(/assets/banner-hero/games/diablo-bg.png)',
         hearthstone: 'url(/assets/banner-hero/games/hearthstone-bg.png)',
         wow: 'url(/assets/banner-hero/games/wow-bg.png)',
+        footer: 'url(/assets/footer-background.png)'
       },
       screens: {
         'sm': '375px',
