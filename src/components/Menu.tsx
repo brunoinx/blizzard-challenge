@@ -1,5 +1,5 @@
 import Logo from '/assets/logo-blizzard.png';
-import MenuIcon from '/assets/banner-hero/icons/menu.svg';
+import MenuIcon from '/assets/icons/menu.svg';
 
 export function Menu() {
   return (

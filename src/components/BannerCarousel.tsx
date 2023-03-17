@@ -20,16 +20,18 @@ export function BannerCarousel() {
 
   return (
     <section
-      className={clsx('w-full bg-top bg-no-repeat', {
+      className={clsx('w-full bg-top bg-no-repeat bg-cover', {
         'bg-diablo': bannerSelected.id === 'diablo_id',
         'bg-hearthstone': bannerSelected.id === 'hearthstone_id',
         'bg-wow': bannerSelected.id === 'wow_id',
       })}
     >
+      <div className="absolute top-[80px] w-full h-[2px] bg-zinc-300/25" />
+
       <div className="bg-black/25 w-full h-full min-h-[635px] px-6 pb-16">
         <Menu />
 
-        <div className="mt-[51px] w-9/12">
+        <div className="mt-[51px] w-9/12 max-w-[562px]">
           <h1 className="text-4xl text-white font-bold">
             {bannerSelected.title}
           </h1>
@@ -42,7 +44,7 @@ export function BannerCarousel() {
             <Button name="Jogue agora" />
           </div>
 
-          <div className="flex items-center justify-between mt-12">
+          <div className="flex items-center justify-between mt-12 max-w-[320px]">
             {gameIcons.map(icon => (
               <img
                 key={icon.id}

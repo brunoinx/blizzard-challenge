@@ -13,6 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 h2 h4 span p a {
+body {
   @apply font-poppins
 }
